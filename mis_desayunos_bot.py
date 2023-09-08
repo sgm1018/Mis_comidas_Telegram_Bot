@@ -4,7 +4,7 @@ import logging
 # Logs
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 # init bot
-TOKEN = "6423462500:AAFzq3l8dGJSNumVXf4q-I1zkA7YDcSqw0s"
+TOKEN = "youuTokenHere"
 bot = telebot.TeleBot(TOKEN)
 opciones = []
 desayunos = {}  # Guardará el desayuno de cada usuario
